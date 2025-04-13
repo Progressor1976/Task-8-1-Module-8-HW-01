@@ -16,9 +16,9 @@ def random_predict(number: int = 1) -> int:
         if predict_number == number:
             break  # Число угадано!
         elif predict_number > number:
-            max_num = predict_number - 1  # Сужаем диапазон вниз
+            max_num = predict_number - 1  # Сужаем диапазон вниз.
         else:
-            min_num = predict_number + 1  # Сужаем диапазон вверх
+            min_num = predict_number + 1  # Сужаем диапазон вверх.
 
     return count
 
